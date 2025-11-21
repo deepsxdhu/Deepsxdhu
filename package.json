@@ -10,11 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/bricolage-grotesque": "^5.2.10",
+    "@fontsource/inter": "^5.2.8",
     "@radix-ui/react-toast": "^1.2.15",
+    "@radix-ui/react-tooltip": "^1.2.8",
     "@tailwindcss/vite": "^4.1.17",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.554.0",
+    "monorepo": "github:radix-ui/themes",
+    "radix-ui": "^1.4.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.6",

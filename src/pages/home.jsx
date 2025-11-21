@@ -1,20 +1,23 @@
+// import Hero from "@/components/hero";
+import Navbar from "@/components/navbar";
 import Starbackground from "@/components/starbackground";
-import Themetoggle from "@/components/Themetoggle";
+
 
 export default function Home() {
     return (
         <div className="">
             
             {/* themetoggle */}
-            <Themetoggle /> 
+        
 
             {/* starbackground */}
             <Starbackground />
 
-
             {/* navbar */}
+            <Navbar />
 
             {/* hero  */}
+            {/* <Hero /> */}
 
             {/* about */}
 

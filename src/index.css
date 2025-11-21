@@ -214,8 +214,18 @@
         animation: pulse-subtle 6s ease-in-out infinite;
     }
 
+    .nav-icon {
+        @apply flex items-center justify-center w-8 h-8 transition rounded-xl;
+    }
 
-    
+    .nav-icon:hover {
+        @apply border rounded-full border-black/30  ;
+    }
+
+    .nav-icon>* {
+        @apply w-5 h-5;
+    }
+
 
 }
 
