@@ -1,4 +1,4 @@
-import { House, Code, User, StickyNote, Github, Twitter, Linkedin } from "lucide-react";
+import { House, Code, User, Github, Twitter, Linkedin } from "lucide-react";
 
 import Themetoggle from "@/components/Themetoggle";
 
@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
 
         <div className="
-            w-[850px] py-[8px] px-[150px]
+            w-[935px] py-[9px] px-[165px]
             flex fixed left-1/2 -translate-x-1/2 mt-6
             border rounded-3xl
             justify-between items-center
@@ -25,15 +25,12 @@ export default function Navbar() {
             <a>
                 <div className="nav-icon"><User /></div>
             </a>
-            
-            <a href="https://x.com/deepsxdhu">
-                <div className="nav-icon"><StickyNote /></div>
-            </a>
+        
 
             <p>|</p>
 
-            <a href="https://github.com/deepsxdhu">
-                <p className="nav-icon"><Github /></p>
+              <a href="https://x.com/deepsxdhu">
+                <div className="nav-icon"><Github /></div>
             </a>
 
             <a href="https://x.com/deepsxdhu">

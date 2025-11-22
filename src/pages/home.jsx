@@ -1,4 +1,4 @@
-// import Hero from "@/components/hero";
+import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
 import Starbackground from "@/components/starbackground";
 
@@ -17,7 +17,7 @@ export default function Home() {
             <Navbar />
 
             {/* hero  */}
-            {/* <Hero /> */}
+            <Hero />
 
             {/* about */}
 

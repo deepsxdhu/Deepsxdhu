@@ -33,6 +33,8 @@ export default function Themetoggle() {
             <button onClick={toggletheme} className="">
                 {isDarkMode ? <Sun className="w-5 h-5 text-black-300" /> : <Moon className=" w-5 h-5 text-dark-900" />}
             </button>
+
+
         </>
     )
 
