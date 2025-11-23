@@ -1,5 +1,6 @@
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
+import Skills from "@/components/skills";
 import Starbackground from "@/components/starbackground";
 
 
@@ -19,11 +20,10 @@ export default function Home() {
             {/* hero  */}
             <Hero />
 
-            {/* about */}
-
             {/* links */}
 
             {/* skills */}
+            <Skills />
 
             {/* projects */}
 

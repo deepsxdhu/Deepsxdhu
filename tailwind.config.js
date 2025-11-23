@@ -58,12 +58,12 @@ export default {
 					inter: ["Inter", "sans-serif"],
 					bricolage: ["Bricolage Grotesque", "sans-serif"],
 				},
-				export : {
-					darkMode: "class",
-					content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
-					theme: { extend: {} },
-					plugins: [],
-				}
+				// export : {
+				// 	darkMode: "class",
+				// 	content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+				// 	theme: { extend: {} },
+				// 	plugins: [],
+				// }
 
 
 			}

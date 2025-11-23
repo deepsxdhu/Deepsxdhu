@@ -6,18 +6,18 @@ export default function Hero() {
         <div>
 
             {/* image  */}
-            <div className="pt-[165px] absolute left-1/2 -translate-x-1/2 mt-6 ">
+            <div className="pt-[200px] absolute left-1/2 -translate-x-1/2 mt-6 ">
                 <img src={myPic} className="rounded-full w-[110px] h-[110px]" />
             </div>
 
 
             {/* head name */}
-            <div className="pt-[340px]">
+            <div className="pt-[380px]">
                 <div className="text-5xl font-[bricolage] font-bold font-stretch-expanded">
                     <h1>Hi, I'm Deepsxdhu</h1>
                 </div>
 
-                <div className="pl-[318px]  font-[bricolage]  ">
+                <div className="pl-[289px]  font-[bricolage]  ">
                     — A Full Stack Web Developer
                 </div>
             </div>
@@ -39,10 +39,10 @@ export default function Hero() {
             {/* buttons */}
 
             <div className="pt-[50px]">
-                <button className="border rounded-xl text-xs  bg-black text-white dark:bg-white dark:text-black mr-[22px] py-[11px] px-[22px] transition duration-200">
+                <button className="border relative rounded-xl text-xs  bg-black text-white dark:bg-white dark:text-black mr-[22px] py-[11px] px-[22px] transition duration-200">
                     Resume/CV
                 </button>
-                <button className="border rounded-xl text-xs  bg-black text-white dark:bg-white dark:text-black mr-[22px] py-[11px] px-[22px] transition duration-200">
+                <button className="border relative rounded-xl text-xs  bg-black text-white dark:bg-white dark:text-black mr-[22px] py-[11px] px-[22px] transition duration-200">
                     Get in touch
                 </button>
             </div>

@@ -11,7 +11,9 @@ export default function Navbar() {
             flex fixed left-1/2 -translate-x-1/2 mt-6
             border rounded-3xl
             justify-between items-center
-            backdrop-blur-sm bg-white/10 shadow-md">
+            backdrop-blur-sm bg-white/10 shadow-md
+            z-50
+            ">
 
 
             <a>
