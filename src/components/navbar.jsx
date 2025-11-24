@@ -31,7 +31,7 @@ export default function Navbar() {
 
             <p>|</p>
 
-              <a href="https://x.com/deepsxdhu">
+              <a href="https://github.com/deepsxdhu">
                 <div className="nav-icon"><Github /></div>
             </a>
 

@@ -1,4 +1,3 @@
-import { Badge } from "lucide-react";
 
 export default function Skills() {
 
@@ -14,12 +13,11 @@ export default function Skills() {
 
 
             {/* skills list  */}
-            <div className="pt-[20px] flex flex-wrap gap-2 mx-[350px] justify-center ">
+            <div className="pt-[20px] flex flex-wrap gap-2 mx-[350px] justify-center text-sm  ">
                 {data.map((skill, idx) => (
                     <span key={idx} className="relative px-4 py-2 border rounded-lg text-sm bg-black text-white dark:bg-white dark:text-black mx-[5px]">
                         {skill}
                     </span>
-
 
                 ))}
             </div>
