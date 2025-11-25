@@ -10,10 +10,10 @@ export default function Activity() {
                     username="deepsxdhu"
                     blockSize={10}
                     blockMargin={3}
-                    // theme={{
-                    //     light: ["#1e1e2f", "#5a3e7a", "#7e5aa2", "#a87cc3", "#d9a9e6"],
-                    //     dark: ["#1e1e2f", "#5a3e7a", "#7e5aa2", "#a87cc3", "#d9a9e6"]
-                    // }}
+                    theme={{
+                        light: ["#ebedf0", "#9be9a8", "#30c463", "#30a14e", "#19863cff"],
+                        dark: ["#ebedf0", "#9be9a8", "#30c463", "#30a14e", "#19863cff"]
+                    }}
 
                 />
                 </span>

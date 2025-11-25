@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Github from "@/components/github";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
@@ -38,6 +39,7 @@ export default function Home() {
             {/* contact */}
 
             {/* footer */}
+            <Footer />
 
         </div>
     )

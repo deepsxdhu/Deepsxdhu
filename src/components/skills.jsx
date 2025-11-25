@@ -4,7 +4,7 @@ export default function Skills() {
     const data = ["Javascript", "Redux", "Node.js", "React", "MongoDB", "Express", "REST", "EJS" , "Tailwind", "Hoopscotch", "Bootstrap"];
 
     return (
-        <div className="">
+        <div className="relative">
 
             {/* skills heading */}
             <h1 className="text-4xl pt-[200px] font-bold font-[bricolage] ">
