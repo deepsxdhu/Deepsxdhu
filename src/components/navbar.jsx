@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
 
         <div className="
-            w-[935px] py-[9px] px-[165px]
+            w-[800px] py-[7px] px-[165px]
             flex fixed left-1/2 -translate-x-1/2 mt-6
             border rounded-3xl
             justify-between items-center
@@ -27,11 +27,11 @@ export default function Navbar() {
             <a>
                 <div className="nav-icon"><User /></div>
             </a>
-        
+
 
             <p>|</p>
 
-              <a href="https://github.com/deepsxdhu">
+            <a href="https://github.com/deepsxdhu">
                 <div className="nav-icon"><Github /></div>
             </a>
 

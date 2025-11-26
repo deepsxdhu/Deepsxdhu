@@ -2,6 +2,13 @@ import myPic from "@/assets/spidey.jpg"
 
 
 export default function Hero() {
+    // { scrollToContact }
+
+    // const gotoform = () => {
+    //     scrollToContact();   // ⭐ Smooth scroll
+    // };
+
+
     return (
         <div className="relative">
 
@@ -25,7 +32,7 @@ export default function Hero() {
 
             {/* about */}
 
-            <div className="pt-[22px] font-sans ">
+            <div className="pt-[22px] font-sans font-medium ">
                 <p>
                     19 , Computer Science student and MERN-stack developer.
                     I like to build clean, <br /> functional, and user-focused web experiences.
@@ -42,7 +49,8 @@ export default function Hero() {
                 <button className="border relative rounded-xl text-xs  bg-black text-white dark:bg-white dark:text-black mx-[11px]  py-[11px] px-[22px] transition duration-200">
                     Resume/CV
                 </button>
-                <button className="border relative rounded-xl text-xs  bg-black text-white dark:bg-white dark:text-black   mx-[11px]  py-[11px] px-[22px] transition duration-200">
+                {/* onClick={gotoform} */}
+                <button  className="border relative  rounded-xl text-xs  bg-black text-white dark:bg-white dark:text-black   mx-[11px]  py-[11px] px-[22px] transition duration-200">
                     Get in touch
                 </button>
             </div>
