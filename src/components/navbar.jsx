@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
 
         <div className="
-            w-[800px] py-[7px] px-[165px]
+            w-[300px] sm:w-[400px] md:w-[600px] lg:w-[800px] py-1.5 sm:py-1.5 md:py-2 px-4 sm:px-10 md:px-20 lg:px-40
             flex fixed left-1/2 -translate-x-1/2 mt-6
             border rounded-3xl
             justify-between items-center
@@ -17,15 +17,17 @@ export default function Navbar() {
 
 
             <a>
-                <p className="nav-icon"><House /></p>
+                <button 
+                    className="nav-icon"><House /></button>
             </a>
 
             <a>
-                <div className="nav-icon"><Code /></div>
+                <button 
+                    className="nav-icon"><Code /></button>
             </a>
 
             <a>
-                <div className="nav-icon"><User /></div>
+                <button className="nav-icon"><User /></button>
             </a>
 
 

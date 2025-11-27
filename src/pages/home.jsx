@@ -1,4 +1,3 @@
-// import { useRef } from "react";
 import ContactForm from "@/components/contactform";
 import Footer from "@/components/footer";
 import Github from "@/components/github";
@@ -11,12 +10,8 @@ import Starbackground from "@/components/starbackground";
 
 export default function Home() {
 
-    // const contactRef = useRef(null);
-
     return (
         <div className="">
-
-            {/* themetoggle */}
 
 
             {/* starbackground */}
@@ -31,16 +26,19 @@ export default function Home() {
 
             {/* hero  */}
             <div>
-                <Hero  />
-                {/* scrollToContact={() => contactRef.current.scrollIntoView({ behavior: "smooth" })} */}
+                <Hero />
             </div>
 
             {/* links */}
 
             {/* skills */}
+            {/* Add my stack */}
             <div>
                 <Skills />
             </div>
+
+            {/* About me */}
+
 
             {/* projects */}
             <div>
@@ -54,10 +52,10 @@ export default function Home() {
 
             {/* exp/ache. */}
 
+
             {/* contact */}
             <div >
-                {/* ref={contactRef} */}
-                <ContactForm />
+                <ContactForm  />
             </div>
 
 

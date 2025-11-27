@@ -247,3 +247,37 @@
         @apply bg-background text-foreground;
     }
 }
+
+
+
+
+
+.github-border-wrapper {
+  position: relative;
+  padding: 20px;
+  border-radius: 16px;
+  background: #00000010;
+  overflow: hidden;
+}
+
+.github-border-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  padding: 3px;
+  background: linear-gradient(130deg, #00f5ff, #7c3aed, #00ff80, #ff00ff);
+  background-size: 400% 400%;
+  animation: borderMove 6s ease infinite;
+  -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+}
+
+@keyframes borderMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

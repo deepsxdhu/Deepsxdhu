@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -12,6 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
+          {/* <Route About element={<About />}/> */}
           <Route path="*" element={<Notfound />} />
         </Routes>
       </BrowserRouter>
