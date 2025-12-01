@@ -13,9 +13,10 @@ export default function Skills() {
 
 
             {/* skills list  */}
-            <div className="px-4 md:px-5 py-4 md:py-6 flex flex-wrap gap-2 md:gap-4 mx-0 md:mx-40 lg:mx-60 justify-center text-xs md:text-sm  ">
+            <div className="px-4 md:px-5 py-4 md:py-6 flex flex-wrap gap-2 md:gap-4 mx-0 md:mx-60 lg:mx-80 justify-center text-xs md:text-sm  ">
                 {data.map((skill, idx) => (
-                    <span key={idx} className="relative text-xs sm:text-sm md:text-base  px-3 py-2 md:px-4 md:py-2 border rounded-lg text-sm bg-black text-white dark:bg-white dark:text-black mx-0.5 md:mx-0.75 ">
+                    <span key={idx} className="relative text-sm   px-3 py-2 md:px-4 md:py-2 border rounded-lg text-sm  text-black  dark:text-white mx-0.5 md:mx-0.75 
+                    backdrop-blur-sm bg-white/10 shadow-md">
                         {skill}
                     </span>
                 ))}

@@ -41,11 +41,13 @@ export default function Hero() {
             {/* buttons */}
 
             <div className="pt-6 md:pt-10 ">
-                <button className="border relative rounded-xl text-xs  bg-black text-white dark:bg-white dark:text-black mx-2 md:mx-3  py-2.5 px-4 md:px-5 transition duration-200">
+                <button className="border relative rounded-xl text-sm  text-black dark:text-white mx-2 md:mx-3  py-2.5 px-4 md:px-5 transition duration-200
+                backdrop-blur-sm bg-white/10 shadow-md">
                     Resume/CV
                 </button>
                 <button onClick={() => { document.getElementById("contactform").scrollIntoView({ behavior: "smooth" }) }}
-                    className="border relative  rounded-xl text-xs  bg-black text-white dark:bg-white dark:text-black   mx-2 md:mx-3  py-2.5 px-4 md:px-5 transition duration-200">
+                    className="border relative  rounded-xl text-sm  text-black dark:text-white  mx-2 md:mx-3  py-2.5 px-4 md:px-5 transition duration-200
+                    backdrop-blur-sm bg-white/10 shadow-md">
                     Get in touch
                 </button>
             </div>
