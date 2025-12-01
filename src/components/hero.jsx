@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="relative" id="herosection">
 
             {/* image  */}
-            <div className="pt-32 md:pt-40 lg:pt-52 flex justify-center relative  ">
+            <div className=" pt-52 flex justify-center relative  ">
                 <img src={myPic} className="rounded-full w-24 md:w-28 h-24 md:h-28" />
             </div>
 
