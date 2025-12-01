@@ -17,12 +17,12 @@ export default function Navbar() {
 
 
             <a>
-                <button 
+                <button onClick={() => { document.getElementById("herosection").scrollIntoView({ behavior: "smooth" }) }}
                     className="nav-icon"><House /></button>
             </a>
 
             <a>
-                <button 
+                <button onClick={() => { document.getElementById("projects").scrollIntoView({ behavior: "smooth" }) }}
                     className="nav-icon"><Code /></button>
             </a>
 
