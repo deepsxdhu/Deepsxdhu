@@ -16,7 +16,7 @@ export default function Hero() {
             {/* head name */}
             <div className=" pt-10 md:pt-14 lg:pt-16 ">
                 <div className="text-3xl md:text-4xl lg:text-5xl font-[bricolage] font-bold font-stretch-expanded ">
-                    <h1>Hi, I'm DeepSxdhu</h1>
+                    <h1>Hi, I'm Deep Sidhu</h1>
                 </div>
 
                 <div className="font-[bricolage] pl-0 md:pl-40 lg:pl-64">
